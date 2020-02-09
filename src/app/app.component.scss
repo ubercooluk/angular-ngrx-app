@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width:90%;
+  border: 1px solid slategray;
+}
+.item{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+background-color: wheat;
+
+}
+.item > div {
+  padding: 5px;
+  margin-left: 5px;
+
+  min-width: 50px;
+  width:20%;
+  text-overflow: ellipsis;
+  text-align: left;
+
+}
+.headers {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  border-bottom: 2px solid steelblue;
+  background-color: skyblue;
+}
+.headers > div {
+  min-width: 50px;
+  margin-left: 5px;
+  padding: 5px;
+  width:20%;
+  text-overflow: ellipsis;
+  text-align: left;
+}
