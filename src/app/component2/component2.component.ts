@@ -9,7 +9,6 @@ import { Store } from '@ngrx/store';
   styleUrls: ['./component2.component.sass']
 })
 export class Component2 implements OnInit {
-  title = 'angngrxapp';
   userslist: Observable<Array<UserAdd>>;
 
   constructor(private store: Store<AppState>) { }

@@ -1,6 +1,7 @@
 import { UserAdd} from '../models/users.model';
 import {UserActions, UserActionTypes} from '../actions/users.action'
 
+//initial store data
 const initialState : Array<UserAdd> = [
   {
     id : "123-456-789",
@@ -11,7 +12,7 @@ const initialState : Array<UserAdd> = [
   }
 
 ]
-
+// The only reducer we are using for this example
 export function UserReducer(state: Array<UserAdd> = initialState,action :UserActions){
     switch(action.type) {
       case UserActionTypes.ADD_USER :

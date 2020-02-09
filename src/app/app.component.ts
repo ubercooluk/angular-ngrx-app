@@ -12,8 +12,7 @@ import { v4 as uuid } from 'uuid';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'angngrxapp';
-  showadd = false;
+   showadd = false;
   userslist: Observable<Array<UserAdd>>;
   userinput = {
     name :'',
