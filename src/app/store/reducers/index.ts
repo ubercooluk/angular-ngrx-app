@@ -5,7 +5,7 @@ import {UserActions, UserActionTypes} from '../actions/users.action'
 const initialState : Array<UserAdd> = [
   {
     id : "123-456-789",
-    name : "Unnikrishnan",
+    name : "John doe",
     age : 32,
     address : "Hello world",
     email : "something@gmail.com"
