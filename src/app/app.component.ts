@@ -1,7 +1,7 @@
 import { Component , OnInit} from '@angular/core';
-import { AppState } from './models/app.model';
-import {UserAdd } from './models/users.model';
-import { DeleteUserAction, AddUserAction} from './actions/users.action'
+import { AppState } from './store/models/app.model';
+import {UserAdd } from './store/models/users.model';
+import { DeleteUserAction, AddUserAction} from './store/actions/users.action'
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 import { v4 as uuid } from 'uuid';
